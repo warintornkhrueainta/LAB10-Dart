@@ -60,18 +60,6 @@
 * **ProductProvider:** จัดการการดึงข้อมูลสินค้าและการแสดงผลในหน้าหลัก
 * **CartProvider:** จัดการ Logic ในตะกร้าสินค้าและการคำนวณราคาทั้งหมด
 
----
-
-## 📂 โครงสร้างโปรเจกต์ (Folder Structure)
-
-```text
-lib/
-├── models/         # คลาสข้อมูล (ProductModel, UserModel)
-├── services/       # ส่วนเชื่อมต่อ API (ProductApiService, UserApiService)
-├── providers/      # การจัดการ State (UserProvider, ProductProvider, CartProvider)
-├── screens/        # หน้าจอ UI (Login, Product, Cart, Admin)
-└── main.dart       # จุดเริ่มต้นแอปและ Setup MultiProvider
----
 ## รูปภาพ
 ** Login
 <img width="483" height="1006" alt="Image" src="https://github.com/user-attachments/assets/57316bea-5531-4b59-be2c-6a6b49ae53f0" />
@@ -85,4 +73,16 @@ lib/
 <img width="479" height="997" alt="Image" src="https://github.com/user-attachments/assets/e71b463a-ea72-4d48-bf7f-8bb9fdddd960" />
 
 <img width="475" height="1015" alt="Image" src="https://github.com/user-attachments/assets/31e5ca20-db50-49f4-a1ac-dac61f2ea726" />
+---
+
+## 📂 โครงสร้างโปรเจกต์ (Folder Structure)
+
+```text
+lib/
+├── models/         # คลาสข้อมูล (ProductModel, UserModel)
+├── services/       # ส่วนเชื่อมต่อ API (ProductApiService, UserApiService)
+├── providers/      # การจัดการ State (UserProvider, ProductProvider, CartProvider)
+├── screens/        # หน้าจอ UI (Login, Product, Cart, Admin)
+└── main.dart       # จุดเริ่มต้นแอปและ Setup MultiProvider
+---
 
